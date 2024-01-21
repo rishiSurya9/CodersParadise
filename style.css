@@ -1,0 +1,47 @@
+*{
+    margin:0;
+    border: border-box;
+}
+/* NAVBAR */
+.navbar{
+    position: sticky;
+    display: flex;
+    height: 6rem;
+    border: 0.2rem solid white;
+    background-color: black;
+    border-radius: 10px;
+   
+}
+.logo{
+    background-color: white;
+    display:inline;
+    position: relative;
+    height: 3.5rem;
+    width: 4.5rem;
+    text-align: center;
+    margin-left: 6rem;
+}
+.bar{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 6rem;
+}
+.b1{
+    height: 3rem;
+    width: 5rem;
+    border: 2px solid black;
+    margin : 1rem;
+}
+a{
+    text-decoration: none;
+    color: white;
+ 
+}
+.a{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    border: none;
+    margin-right: 1rem;
+}
