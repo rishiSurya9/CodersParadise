@@ -1,6 +1,7 @@
 *{
     margin:0;
     border: border-box;
+    /* text-align: center; */
 }
 /* NAVBAR */
 .navbar{
@@ -12,6 +13,7 @@
     border-radius: 10px;
    
 }
+/* NAVBAR LOGO */
 .logo{
     background-color: white;
     display:inline;
@@ -21,27 +23,74 @@
     text-align: center;
     margin-left: 6rem;
 }
+/* NAVBAR BUTTONS */
 .bar{
     display:flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
     margin-right: 6rem;
 }
+
 .b1{
     height: 3rem;
-    width: 5rem;
+    width: 5.1rem;
     border: 2px solid black;
-    margin : 0.2rem;
+    margin-right :1rem;
+    margin-top: 0;
+    margin-bottom: 0;
+    border-radius: 0.4rem;
+    text-align: center;
+}
+.b1:hover{
+    background-color: blue;
 }
 a{
     text-decoration: none;
     color: white;
- 
+    margin-top: 1rem;
+    font-size: large;
 }
 .a{
     text-decoration: none;
     color: white;
     background-color: black;
     border: none;
-    margin-right: 1rem;
+    
+}
+
+/* INTRODUCTION */
+.intro{
+    background-color: black;
+    position: relative;
+    margin-top: 0.1rem;
+    height: 32rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.intro:hover{
+    background-color: pink;
+}
+/* SOLGAN */
+.slogan{
+   width:50%;
+    color:white;
+}
+/* ANIMATION */
+.anime{
+    width: 50%;
+    color:white;
+}
+/* RESOURCES */
+.res{
+    background-color: black;
+    margin-top: 0.1rem;
+    height: 32rem;
+    display: flex;
+    flex-direction: column;
+    
+}
+/* BUTTONS */
+.r{
+
 }
