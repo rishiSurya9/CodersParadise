@@ -1,7 +1,6 @@
 *{
     margin:0;
     border: border-box;
-    /* text-align: center; */
 }
 /* NAVBAR */
 .navbar{
@@ -92,5 +91,5 @@ a{
 }
 /* BUTTONS */
 .r{
-
+    background-color: blue;
 }
